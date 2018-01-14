@@ -1,7 +1,15 @@
 package com.robxx.insxboot.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Policy {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
     String accountName;
     String vehicleMake;

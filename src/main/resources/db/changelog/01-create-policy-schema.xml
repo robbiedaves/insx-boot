@@ -5,10 +5,10 @@
             <column name="ID" type="bigint" autoIncrement="true">
                 <constraints nullable="false" primaryKey="true" primaryKeyName="policyid"/>
             </column>
-            <column name="ACCOUNTNAME" type="VARCHAR(255)"/>
-            <column name="VEHICLEMAKE" type="VARCHAR(80)"/>
-            <column name="VEHICLEMODEL" type="VARCHAR(80)"/>
-            <column name="VEHICLEREGISTRATION" type="VARCHAR(18)"/>
+            <column name="ACCOUNT_NAME" type="VARCHAR(255)"/>
+            <column name="VEHICLE_MAKE" type="VARCHAR(80)"/>
+            <column name="VEHICLE_MODEL" type="VARCHAR(80)"/>
+            <column name="VEHICLE_REGISTRATION" type="VARCHAR(18)"/>
             <column name="EMAIL" type="VARCHAR(255)"/>
             <column name="PREMIUM" type="FLOAT"/>
         </createTable>
